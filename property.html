@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opening Xterra...</title>
+</head>
+<body>
+  <script>
+    window.onload = function() {
+      document.getElementById('deeplink').click();
+    };
+  </script>
+
+  <a id="deeplink" href="xterra://open/property/42"></a>
+
+  <p>Opening property in app...</p>
+  <p id="msg">
+    App didn't open? 
+    <a href="xterra://open/property/42">Tap here manually</a>
+  </p>
+</body>
+</html>
